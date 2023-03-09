@@ -1,3 +1,4 @@
+
 # Nicholas DeSanctis
 
 def encode(password):
@@ -43,13 +44,12 @@ if __name__ == '__main__':
 -------------
 1. Encode
 2. Decode
-3. Quit
-''')
+3. Quit''')
 
         user_opt = int(input("Please enter an option: "))
         if user_opt == 1:
             encoded_password = encode(input("Please enter your password to encode: "))
-            print("Your password has been encoded and stored!\n")
+            print("Your password has been encoded and stored!")
 
         elif user_opt == 2:
             print(f"The encoded password is {encoded_password}, and the original password is {decoder(encoded_password)}.")
@@ -57,3 +57,4 @@ if __name__ == '__main__':
 
         elif user_opt == 3:
             loop_stop = True
+
