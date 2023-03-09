@@ -53,8 +53,7 @@ if __name__ == '__main__':
             print("Your password has been encoded and stored!\n")
 
         elif user_opt == 2:
-            print(f"The encoded password is {encoded_password}, and the original password is {decoder(encoded_password)}.")
-            print(decoder(encoded_password))
+            print(f"The encoded password is {encoded_password}, and the original password is {decoder(encoded_password)}.\n")
 
         elif user_opt == 3:
             loop_stop = True
